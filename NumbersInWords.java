@@ -1,21 +1,21 @@
 import java.util.Scanner;
-//import java.text.NumberFormat;
+
 
 public class NumbersInWords {
 
 	public static String[] unit= {"Zero","One","Two","Three","Four","Five", 
-									"Six","seven","Eight","Nine","Ten","Eleven",
-									"Twelve","Thirteen","Fourteen","Fifteen","Sixteen",
-									"Seventeen","Eighteen","Nineteen"};
+					"Six","seven","Eight","Nine","Ten","Eleven",
+					"Twelve","Thirteen","Fourteen","Fifteen","Sixteen",
+					"Seventeen","Eighteen","Nineteen"};
 
 public static String[] ten= {"","","Twenty","Thirty","Fourty","Fifty",
-								"Sixty","Seventy","Eighty","Ninety" };
+				"Sixty","Seventy","Eighty","Ninety" };
 
 public static String[] hundred= {"","One hundred","Two hundred","Three hundred","Four hundred","Five hundred",
-								"Six hundred","Seven hundred","Eight hundred","Nine hundred"};
+				"Six hundred","Seven hundred","Eight hundred","Nine hundred"};
 
 public static String[] thousand= {"","One thousand","Two thousand","Three thousand","Four thousand","Five thousand",
-									"Six thousand","Seven thousand","Eight thousand","Nine thousand"};
+				"Six thousand","Seven thousand","Eight thousand","Nine thousand"};
 
 public static String convert_Numbers( float num)
 {
